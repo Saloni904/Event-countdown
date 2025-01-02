@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Countdown to Your Special Event</h1>
+        <div class="event-date">
+            <label for="event-date">Enter Event Date:</label>
+            <input type="date" id="event-date" name="event-date" required>
+            <button id="set-date">Start Countdown</button>
+        </div>
+        <div class="countdown">
+            <div id="days" class="time-box"></div>
+            <div id="hours" class="time-box"></div>
+            <div id="minutes" class="time-box"></div>
+            <div id="seconds" class="time-box"></div>
+        </div>
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
